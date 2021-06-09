@@ -1,0 +1,58 @@
+{
+  "defaultSeverity": "none",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**"
+    ]
+  },
+  "rules": {
+    "indent": false,
+    "interface-name": false,
+    "no-consecutive-blank-lines": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "no-trailing-whitespace": false,
+    "whitespace": false,
+    "one-line": false,
+    "comment-format": false,
+    "quotemark": false,
+    "prefer-const": false,
+    "member-ordering": false,
+    "no-tabs": "off",
+    "max-len": [
+      1,
+      {
+      "code": 300,
+      "ignoreStrings": true,
+      "ignoreUrls": true,
+      "ignoreRegExpLiterals": true
+      }
+    ],
+    "no-var-keyword": false,
+    "comma-spacing": false,
+    "comma-dangle": [
+      2,
+      "never"
+    ],
+    "trailing-comma": [
+      true,
+      {
+        "singleline": "never",
+        "multiline": {
+          "objects": "ignore",
+          "arrays": "always",
+          "functions": "never",
+          "typeLiterals": "ignore"
+        }
+      }
+    ],
+    "semicolon": false,
+    "space-before-function-paren":false,
+    "no-empty":false,
+    "space-within-parens":false
+
+  }
+}

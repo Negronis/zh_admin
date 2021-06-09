@@ -1,0 +1,105 @@
+/*
+*  Author:Fan
+*  Date:21/11/2019
+*  Consult:iview  
+*  WWW:https://www.iviewui.com/components/color
+*/
+.Primary {
+  color: #2d8cf0;
+}
+.Primary_bg {
+  background: #2d8cf0;
+}
+.Light_Primary {
+  color: #5cadff;
+}
+.Light_Primary_bg {
+  background: #5cadff;
+}
+.Dark_Primary {
+  color: #2b85e4;
+}
+.Dark_Primary_bg {
+  background: #2b85e4;
+}
+.Info {
+  color: #2db7f5;
+}
+.Info_bg {
+  background: #2db7f5;
+}
+.Success {
+  color: #19be6b;
+}
+.Success_bg {
+  background: #19be6b;
+}
+.Warning {
+  color: #ff9900;
+}
+.Warning_bg {
+  background: #ff9900;
+}
+.Error {
+  color: #ed4014;
+}
+.Error_bg {
+  background: #ed4014;
+}
+.Title {
+  color: #17233d;
+}
+.Title_bg {
+  background: #17233d;
+}
+.Content {
+  color: #515a6e;
+}
+.Content_bg {
+  background: #515a6e;
+}
+.Sub_Color {
+  color: #808695;
+}
+.Sub_Color_bg {
+  background: #808695;
+}
+.Disabled {
+  color: #c5c8ce;
+}
+.Disabled_bg {
+  background: #c5c8ce;
+}
+.Border {
+  color: #dcdee2;
+}
+.Border_bg {
+  background: #dcdee2;
+}
+.Divider {
+  color: #e8eaec;
+}
+.Divider_bg {
+  background: #e8eaec;
+}
+.Background {
+  color: #f8f8f9;
+}
+.Background_bg {
+  background: #f8f8f9;
+}
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+.scroll_y {
+  overflow: hidden;
+  overflow-y: visible;
+}
+.field_input {
+  border: 1px solid #dcdee2;
+  border-radius: 10px;
+}
+.fontS {
+  font-size: 20px;
+}
