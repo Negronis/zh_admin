@@ -8,7 +8,7 @@
           <Layout >
             <crumb></crumb>
             <div style="padding: 20px;">
-              <Content class='layout-content' :style="{height:height - 46 - 60+ 'px',padding: '24px', minHeight: '280px', background: '#fff',border:'1px solid #fefefe'}">
+              <Content class='layout-content' :style="{height:height - 46 - 40 + 'px',padding: '24px', minHeight: '280px', background: '#fff',border:'1px solid #fefefe'}">
                 <router-view />
               </Content>
             </div>

@@ -16,11 +16,15 @@
           <Icon custom="iconfont icon-chazhaobiaodanliebiao" size="20" />
           <span>控制台</span>
         </MenuItem>
+      <MenuItem  name="doc_list" to="/doc_list">
+          <Icon custom="iconfont icon-daping" size="20" />
+          <span>医生认证列表</span>
+      </MenuItem>
       <!-- 数据统计功能列表 -->
         <Submenu hide-trigger name="dataStatistics">
           <template slot="title">
             <Icon custom="iconfont icon-shujufenxi" size="20" /> 
-            <span>数据统计</span>
+            <span>提现统计</span>
           </template> 
           <div v-for="(item,index) in func_sjtj" :key="index">
             <Poptip  :disabled="!isToolShow"   trigger="hover"   :title="item.title"    :content="item.content"  placement="right"  >
@@ -88,12 +92,9 @@ export default class tab extends Vue {
 
 
   // 所有二级菜单数组 
-  private func_sjtj : any[] = func_sjtj_arr; 
-  private func_tdgl : any[] = func_sjtj_arr; 
+  private func_sjtj : any[] = func_sjtj_arr;  
 
-
-  //tab setting_close
-  private submenu_close: [] = [];
+ 
 
   private isToolShow: boolean = false;
   // changeToggle
@@ -140,8 +141,7 @@ export default class tab extends Vue {
   .menu-item span {
     display: inline-block;
     overflow: hidden;
-    // overflow-y:scroll;
-    width: 110px;
+    width:80%;
     text-overflow: ellipsis;
     white-space: nowrap;
     vertical-align: bottom;
